@@ -4,6 +4,7 @@ import (
 	"AdventOfCode2024/day/day_01"
 	"AdventOfCode2024/day/day_02"
 	"AdventOfCode2024/day/day_03"
+	"AdventOfCode2024/day/day_04"
 	"AdventOfCode2024/util"
 	"flag"
 	"log"
@@ -15,6 +16,7 @@ var days = map[int]func(string){
 	1: day_01.Run,
 	2: day_02.Run,
 	3: day_03.Run,
+	4: day_04.Run,
 }
 
 func main() {
